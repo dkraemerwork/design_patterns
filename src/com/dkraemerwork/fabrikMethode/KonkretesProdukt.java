@@ -1,4 +1,4 @@
-package com.dkraemerwork.FabrikMethode;
+package com.dkraemerwork.fabrikMethode;
 
 
 public class KonkretesProdukt implements Produkt{

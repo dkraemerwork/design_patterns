@@ -1,4 +1,4 @@
-package com.dkraemerwork.FabrikMethode;
+package com.dkraemerwork.fabrikMethode;
 
 public interface Erzeuger {
     Produkt fabrikmethode();
