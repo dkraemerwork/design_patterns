@@ -1,11 +1,15 @@
-package com.dkraemerwork.factoryMethod;
+package com.dkraemerwork.FabrikMethode;
 
 public class KonkreterErzeuger implements Erzeuger {
 
-    public Produkt erstelleProdukt(String url) {
+    public Produkt fabrikmethode() {
         Produkt produkt = new KonkretesProdukt();
         produkt.setAbhaengigkeit("Oracle Database");
 
         return produkt;
+    }
+
+    public void eineOperation(){
+
     }
 }

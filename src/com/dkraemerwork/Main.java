@@ -1,7 +1,7 @@
 package com.dkraemerwork;
 
-import com.dkraemerwork.factoryMethod.KonkreterErzeuger;
-import com.dkraemerwork.factoryMethod.Produkt;
+import com.dkraemerwork.FabrikMethode.KonkreterErzeuger;
+import com.dkraemerwork.FabrikMethode.Produkt;
 import com.dkraemerwork.singleton.Logger;
 
 import java.io.IOException;

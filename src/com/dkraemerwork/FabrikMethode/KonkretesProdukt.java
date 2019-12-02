@@ -1,4 +1,5 @@
-package com.dkraemerwork.factoryMethod;
+package com.dkraemerwork.FabrikMethode;
+
 
 public class KonkretesProdukt implements Produkt{
 
@@ -6,14 +7,13 @@ public class KonkretesProdukt implements Produkt{
 
     @Override
     public void use() {
-        System.out.println("Ich bin Oracle Statement");
+        System.out.println("Ich bin ein Oracle Statement");
     }
 
     @Override
     public void destroy() {
         System.out.println("Ich war ein Oracle Statement");
     }
-
 
     public void setAbhaengigkeit(String abhaengigkeit) {
         this.abhaengigkeit = abhaengigkeit;

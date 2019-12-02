@@ -1,4 +1,4 @@
-package com.dkraemerwork.factoryMethod;
+package com.dkraemerwork.FabrikMethode;
 
 public interface Produkt {
 
